@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d92b56bf-f7f8-47d8-9f5e-b759364040cf</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Dictionary\Test_PermutationDetector.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PetersPyProjects</Name>
+    <RootNamespace>PetersPyProjects</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Dictionary\DictionaryTrie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionary\PermutationDetector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionary\Test_DictionaryTrie.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dictionary\Test_PermutationDetector.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FindPathBetweenSensors_Google\EdgeCross.py" />
+    <Compile Include="FindPathBetweenSensors_Google\FindPathBetweenSensors_Google.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FindPathBetweenSensors_Google\Location.py" />
+    <Compile Include="GenerateMaxTraffic_Google\PetersPyProjects.py" />
+    <Compile Include="FindPathBetweenSensors_Google\Rectangle.py" />
+    <Compile Include="FindPathBetweenSensors_Google\Sensor.py" />
+    <Compile Include="FindPathBetweenSensors_Google\SensorRange.py" />
+    <Compile Include="FindPathBetweenSensors_Google\Test_FindPathBetweenSensors.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GenerateMaxTraffic_Google\Test_GenerateMaxTraffic.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FindPathBetweenSensors_Google\" />
+    <Folder Include="GenerateMaxTraffic_Google\" />
+    <Folder Include="Dictionary\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
