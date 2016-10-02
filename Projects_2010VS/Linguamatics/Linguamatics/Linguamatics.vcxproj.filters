@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{3fa830da-e611-4401-856f-1c91499a9920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IMP">
+      <UniqueIdentifier>{2e7e4450-0726-4160-b224-3ef7a5cd438e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\IMP">
+      <UniqueIdentifier>{6c7a7127-5400-44c0-8203-0139fb85b639}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHighlighterApi.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="TextHighlighterImp.h">
+      <Filter>Header Files\IMP</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFile.h">
+      <Filter>Header Files\IMP</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputFile.h">
+      <Filter>Header Files\IMP</Filter>
+    </ClInclude>
+    <ClInclude Include="TextOutputFile.h">
+      <Filter>Header Files\IMP</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionLinkList.h">
+      <Filter>Header Files\IMP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Linguamatics.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFile.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputFile.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextOutputFile.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+    <ClCompile Include="PositionLinkList.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextHighlighterImp.cpp">
+      <Filter>Source Files\IMP</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
